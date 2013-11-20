@@ -1,4 +1,4 @@
-shiny-grid
-==========
-
-Very simple CSS grid system.  
+#shiny-grid
+======
+  
+Very simple column-based CSS grid system.  
