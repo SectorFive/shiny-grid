@@ -9,8 +9,6 @@
 
 [class*='col-'] {
   float: left;
-}
-[class*='col-'] {
   padding-right: 20px;
 }
 [class*='col-']:last-of-type, .col-1 {
@@ -52,10 +50,45 @@
 
 /* Outlines */
 div[class*='col-'] {
-	outline: 1px solid gray;
+	/*outline: 1px solid gray;*/
 }
 
 
 
 /* === Site Styling === */
+
+html {
+  font-family: 'Arial';
+  background: #999;
+}
+
+[class*='col-'] {
+  border: 1px solid #999;
+  padding: 10px 20px;
+  /* fallback */
+  background-color: #ccc;
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ccc), to(#aaa));
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #aaa, #ccc);
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #aaa, #ccc);
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #aaa, #ccc);
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #aaa, #ccc);
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #888;
+  border-bottom: 1px solid #666;
+  border-left: 1px solid #bbb;
+  text-shadow: 0px 1px 0px #eee;
+}
+
+h1, h2 {
+  font-family: 'Fredoka One', cursive;
+  margin: 5px 0;
+  padding: 0;
+}
+
+
 
