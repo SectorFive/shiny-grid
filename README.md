@@ -1,5 +1,4 @@
 #shiny-grid
-======
   
 Very simple column-based CSS grid system.
 
@@ -7,4 +6,4 @@ You can use this as a starter for an HTML5 website project.  Just delete all the
 
 There will be another project for the Responsive version of this grid system, but it will be more complex and similar to lots of other grids out there, so this one will stay simple and static.  You can learn this as the first step in making your own more complex and possibly Responsive grid system, and expand it as you learn.
 
-Enjoy and please let me know if it was helpdful for you.
+Enjoy, and please let me know if it was helpdful for you.
